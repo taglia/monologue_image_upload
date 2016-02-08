@@ -18,13 +18,13 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", ">= 4.0.0"
   s.add_dependency "monologue"
   s.add_dependency "jquery-rails"
-  s.add_dependency 'paperclip', '~> 4.2.1'
+  s.add_dependency 'paperclip', '~> 4.3.0'
 
   s.add_development_dependency "sqlite3"
   s.add_development_dependency 'rspec-rails', '2.14.0'
   s.add_development_dependency 'factory_girl_rails', '~> 4.2.0'
   s.add_development_dependency "database_cleaner", "1.0.1"
-  s.add_development_dependency "capybara", "~> 1.1.4"
+  s.add_development_dependency "capybara", "~> 2.6.2"
   s.add_development_dependency "capybara-webkit"
 
 end
